@@ -17,3 +17,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\WorkspaceGlimpse
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/WorkspaceGlimpse/views/ListarUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcTGlzdGFyVXN1YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
