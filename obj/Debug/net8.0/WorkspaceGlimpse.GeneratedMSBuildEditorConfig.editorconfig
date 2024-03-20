@@ -18,6 +18,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\WorkspaceGlimpse
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/WorkspaceGlimpse/views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/WorkspaceGlimpse/views/ListarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcTGlzdGFyVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkspaceGlimpse/views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2l40eq24vp
