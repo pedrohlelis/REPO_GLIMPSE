@@ -26,6 +26,12 @@ namespace WorkspaceGlimpse.Migrations
                 {
                     table.PrimaryKey("PK_Users", x => x.UserId);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_UserId",
+                table: "Users",
+                column: "UserId",
+                unique: true);
         }
 
         /// <inheritdoc />

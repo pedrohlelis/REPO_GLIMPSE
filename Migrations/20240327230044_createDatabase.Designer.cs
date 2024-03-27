@@ -11,7 +11,7 @@ using WorkspaceGlimpse.Models;
 namespace WorkspaceGlimpse.Migrations
 {
     [DbContext(typeof(GlimpseContext))]
-    [Migration("20240327225421_createDatabase")]
+    [Migration("20240327230044_createDatabase")]
     partial class createDatabase
     {
         /// <inheritdoc />
@@ -56,6 +56,9 @@ namespace WorkspaceGlimpse.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });

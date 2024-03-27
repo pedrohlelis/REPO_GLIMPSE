@@ -54,6 +54,9 @@ namespace WorkspaceGlimpse.Migrations
 
                     b.HasKey("UserId");
 
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
                     b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
