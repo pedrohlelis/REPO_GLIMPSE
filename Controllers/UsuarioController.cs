@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using WorkspaceGlimpse.Models;
 
-namespace WorkspaceGlimpse;
+namespace WorkspaceGlimpse.Controllers;
 
-public class UsuariosController{
+public class UsuarioController{
     [HttpGet("Listar")]
     public List<Usuario> GetTodosUsuarios()
     {
