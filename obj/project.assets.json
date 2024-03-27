@@ -8451,19 +8451,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\patum\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patum\\OneDrive - Grupo Marista\\Programação\\PUC\\Projeto Glimpse\\REPO_GLIMPSE\\WorkspaceGlimpse.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\OneDrive\\Documentos\\Glimpse\\WorkspaceGlimpse.csproj",
       "projectName": "WorkspaceGlimpse",
-      "projectPath": "C:\\Users\\patum\\OneDrive - Grupo Marista\\Programação\\PUC\\Projeto Glimpse\\REPO_GLIMPSE\\WorkspaceGlimpse.csproj",
-      "packagesPath": "C:\\Users\\patum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patum\\OneDrive - Grupo Marista\\Programação\\PUC\\Projeto Glimpse\\REPO_GLIMPSE\\obj\\",
+      "projectPath": "C:\\Users\\victo\\OneDrive\\Documentos\\Glimpse\\WorkspaceGlimpse.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\OneDrive\\Documentos\\Glimpse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\patum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8531,7 +8531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
