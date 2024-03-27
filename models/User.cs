@@ -11,7 +11,7 @@ namespace WorkspaceGlimpse
         private String _UserPassword;
         private String? _ProfilePic;
 
-        public int IdUsuario {get{return _UserId;} set{_UserId = value;}}
+        public int UserId {get{return _UserId;} set{_UserId = value;}}
         public String UserName {get{return _UserName;} set{_UserName = value;}}
         public String UserEmail {get{return _UserEmail;} set{_UserEmail = value;}}
         public String UserPassword {get{return _UserPassword;} set{_UserPassword = value;}}
