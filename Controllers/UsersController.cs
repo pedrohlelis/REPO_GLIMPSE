@@ -1,14 +1,33 @@
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using WorkspaceGlimpse.Models;
 
-namespace WorkspaceGlimpse;
-
-public class UsuariosController{
-    [HttpGet("UsersList")]
-    public List<User> GetAllUsers()
+namespace WorkspaceGlimpse.Controllers
+{
+    [Route("[Controller]")]
+    [ApiController]
+    public class UsersController : Controller
     {
-        using (var _context = new GlimpseContext())
+        [HttpPost("CreateUser")]
+        public bool PostUser([FromForm] User user)
         {
-            return _context.Users.ToList();
+                using(var _context = new GlimpseContext()) 
+                {
+                    user.UserId = 0;
+                    user.IsActive = true;
+                    _context.Users.Add(user);
+                    _context.SaveChanges();
+                }
+                return true;
+        }
+
+        [HttpGet("UsersList")]
+        public List<User> GetAllUsers()
+        {
+            using (var _context = new GlimpseContext())
+            {
+                return _context.Users.ToList();
+            }
         }
     }
 }

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace WorkspaceGlimpse
+namespace WorkspaceGlimpse.Models
 {
     public class GlimpseContext : DbContext
     {
