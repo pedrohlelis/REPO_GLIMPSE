@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WorkspaceGlimpse;
 
-public class UsuariosController{
+public class UserController{
     [HttpGet("UsersList")]
     public List<User> GetAllUsers()
     {
