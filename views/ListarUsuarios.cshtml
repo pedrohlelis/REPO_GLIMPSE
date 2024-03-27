@@ -1,4 +1,4 @@
-@model List<WorkspaceGlimpse.Usuario>;
+@model List<WorkspaceGlimpse.User>;
 
 <!DOCTYPE html>
     <html>
@@ -13,13 +13,12 @@
                 <th>Email</th>
                 <th>Telefone</th>
             </tr>
-            @foreach (var usuario in Model)
+            @foreach (var user in Model)
             {
                 <tr>
-                    <td>@usuario.IdUsuario</td>
-                    <td>@usuario.ImagemPerfil</td>
-                    <td>@usuario.NomeUsuario</td>
-                    <td>@usuario.EmailUsuario</td>
+                    <td>@user.UserId</td>
+                    <td>@user.ProfilePic</td>
+                    <td>@user.UserName</td>
                 </tr>
             }
         </table>

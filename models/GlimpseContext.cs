@@ -4,7 +4,7 @@ namespace WorkspaceGlimpse
 {
     public class GlimpseContext : DbContext
     {
-        public DbSet<Usuario> Usuarios { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
