@@ -4,8 +4,13 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
+<<<<<<< HEAD:Glimpse/Properties/launchSettings.json
       "applicationUrl": "http://localhost:52161",
       "sslPort": 44364
+=======
+      "applicationUrl": "http://localhost:3360",
+      "sslPort": 44388
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:Properties/launchSettings.json
     }
   },
   "profiles": {
@@ -13,7 +18,11 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
+<<<<<<< HEAD:Glimpse/Properties/launchSettings.json
       "applicationUrl": "http://localhost:5123",
+=======
+      "applicationUrl": "http://localhost:5262",
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:Properties/launchSettings.json
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -22,7 +31,11 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
+<<<<<<< HEAD:Glimpse/Properties/launchSettings.json
       "applicationUrl": "https://localhost:7213;http://localhost:5123",
+=======
+      "applicationUrl": "https://localhost:7268;http://localhost:5262",
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:Properties/launchSettings.json
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
