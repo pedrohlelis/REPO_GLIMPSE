@@ -7,9 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD:Glimpse/Glimpse.csproj
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:WorkspaceGlimpse.csproj
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">

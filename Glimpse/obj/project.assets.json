@@ -59,6 +59,7 @@
           }
         }
       },
+<<<<<<< HEAD:Glimpse/obj/project.assets.json
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -359,6 +360,8 @@
           }
         }
       },
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:obj/project.assets.json
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
@@ -3943,6 +3946,7 @@
         "microsoft.aspnetcore.identity.nuspec"
       ]
     },
+<<<<<<< HEAD:Glimpse/obj/project.assets.json
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.3": {
       "sha512": "U+higIsJ662NwkP4Qa9HVnLi8zhm/O3NYni16q8P/Ed7ovVWX9Wf2kmCzt3GXMgcBZJQM1X0l32ii22MK9QWBA==",
       "type": "package",
@@ -3971,6 +3975,8 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:obj/project.assets.json
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
       "type": "package",
@@ -10461,9 +10467,12 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD:Glimpse/obj/project.assets.json
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.3",
       "Microsoft.EntityFrameworkCore >= 8.0.3",
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:obj/project.assets.json
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
@@ -10514,6 +10523,7 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+<<<<<<< HEAD:Glimpse/obj/project.assets.json
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -10526,6 +10536,8 @@
             "target": "Package",
             "version": "[8.0.3, )"
           },
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:obj/project.assets.json
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[8.0.3, )"

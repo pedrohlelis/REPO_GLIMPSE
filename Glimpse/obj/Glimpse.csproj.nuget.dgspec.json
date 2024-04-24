@@ -43,6 +43,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD:Glimpse/obj/Glimpse.csproj.nuget.dgspec.json
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -55,6 +56,8 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+=======
+>>>>>>> 0d6e0b359b604dd993acc545a90c022d782aa98f:obj/WorkspaceGlimpse.csproj.nuget.dgspec.json
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.3, )"
